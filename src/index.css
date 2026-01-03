@@ -1,0 +1,32 @@
+:root {
+  background-color: #0B0E14;
+  color: #F4F1EC;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8vw;
+}
+
+.title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 4rem;
+  letter-spacing: 0.04em;
+  color: #F4F1EC;
+}
+
+.subtitle {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #E6C27A;
+  max-width: 480px;
+  line-height: 1.6;
+}
